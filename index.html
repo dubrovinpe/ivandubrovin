@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ivan Dubrovin — Film Director</title>
+    <meta
+      name="description"
+      content="Ivan Dubrovin is a film director based in Munich."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-content">
+        <div class="logo">Ivan Dubrovin</div>
+        <nav>
+          <a href="#about">About</a>
+          <a href="awards.html">Festivals & Awards</a>
+          <!-- <--- HIER EINFÜGEN -->
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="work">
+        <!-- Clean 3-Column Grid -->
+        <!-- Clean 3-Column Grid -->
+        <div class="films-grid">
+          <!-- 1. Thermiq -->
+          <a href="films/thermiq.html" class="film-card">
+            <div class="film-poster-container">
+              <img src="assets/poster/thermiqp.jpg" alt="Thermiq Poster" />
+              <div class="poster-overlay">
+                <span class="view-project-text">View Project</span>
+              </div>
+            </div>
+            <div class="card-info">
+              <h3>Thermiq</h3>
+              <p>Sci-Fi · 22 min</p>
+            </div>
+          </a>
+
+          <!-- 2. Herr L -->
+          <a href="films/herr-l.html" class="film-card">
+            <div class="film-poster-container">
+              <img src="assets/poster/herr-lp.jpg" alt="Herr L Poster" />
+              <div class="poster-overlay">
+                <span class="view-project-text">View Project</span>
+              </div>
+            </div>
+            <div class="card-info">
+              <h3>Herr L</h3>
+              <p>Sci-Fi · 25 min</p>
+            </div>
+          </a>
+
+          <!-- 3. Frau K -->
+          <a href="films/frau-k.html" class="film-card">
+            <div class="film-poster-container">
+              <img src="assets/poster/frau-kp.jpg" alt="Frau K Poster" />
+              <div class="poster-overlay">
+                <span class="view-project-text">View Project</span>
+              </div>
+            </div>
+            <div class="card-info">
+              <h3>Frau K</h3>
+              <p>Steampunk · 11 min</p>
+            </div>
+          </a>
+
+          <!-- 4. Luftschiff -->
+          <a href="films/luftschiff.html" class="film-card">
+            <div class="film-poster-container">
+              <img
+                src="assets/poster/luftschiffp2.jpg"
+                alt="Luftschiff Poster"
+              />
+              <div class="poster-overlay">
+                <span class="view-project-text">View Project</span>
+              </div>
+            </div>
+            <div class="card-info">
+              <h3>The Crashing Airship</h3>
+              <p>Fantasy · 13 min</p>
+            </div>
+          </a>
+
+          <!-- 5. Ein Job -->
+          <a href="films/ein-job.html" class="film-card">
+            <div class="film-poster-container">
+              <img src="assets/stills/ein-job.jpg" alt="Ein Job Still" />
+              <div class="poster-overlay">
+                <span class="view-project-text">View Project</span>
+              </div>
+            </div>
+            <div class="card-info">
+              <h3>Ein Job</h3>
+              <p>Comedy · 6 min</p>
+            </div>
+          </a>
+
+          <!-- 6. Hello -->
+          <a href="films/hello.html" class="film-card">
+            <div class="film-poster-container">
+              <img src="assets/stills/hello.jpg" alt="Hello Still" />
+              <div class="poster-overlay">
+                <span class="view-project-text">View Project</span>
+              </div>
+            </div>
+            <div class="card-info">
+              <h3>Hello...</h3>
+              <p>Drama · 9 min</p>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section id="about">
+        <div class="section-header">
+          <span class="section-title">Biography</span>
+          <h1 class="main-headline">About Ivan</h1>
+        </div>
+        <div class="about-container">
+          <div class="about-image">
+            <a href="awards.html">
+              <img
+                src="assets/portraits/ivan.jpg"
+                alt="Portrait of Ivan Dubrovin"
+              />
+              <!-- DIESER TEIL IST NEU (Overlay & Text) -->
+              <div class="poster-overlay">
+                <span class="view-project-text">View Awards</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="about-content bio-text">
+            <p>
+              Ivan Dubrovin is a film director born in Münster, Germany. He has
+              been making short films since the age of nine. After graduating
+              from high school, he worked as an intern at the Deutsches Theater
+              Berlin, honing his craft in traditional theater before moving to
+              cinema.
+            </p>
+            <p>
+              Since 2019, he has been studying narrative feature film directing
+              at the University of Television and Film Munich (HFF). In 2024, he
+              directed the science fiction short film
+              <strong>Herr L</strong>, co-produced with Bayerischer Rundfunk,
+              showcasing his ability to blend social satire with futuristic
+              visuals.
+            </p>
+            <p>
+              His films have screened internationally, including LA Shorts
+              International Film Festival (Academy Award® qualifying) and the
+              Drama International Short Film Festival.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section id="contact">
+        <div class="contact-wrapper">
+          <div class="contact-details">
+            <h1>Contact</h1>
+            <p>
+              Email:
+              <a
+                href="#"
+                onclick="
+                  openMail();
+                  return false;
+                "
+                >ivan.dub [at] gmx.de</a
+              >
+            </p>
+            <p>
+              Phone:
+              <a
+                href="#"
+                onclick="
+                  openPhone();
+                  return false;
+                "
+                >+49 159 031 46 464</a
+              >
+            </p>
+          </div>
+
+          <div class="social-icons">
+            <a
+              href="https://de.wikipedia.org/wiki/Ivan_Dubrovin"
+              target="_blank"
+            >
+              <img src="assets/icons/wikipedia.png" alt="Wikipedia" />
+            </a>
+            <a href="https://www.youtube.com/ivandubrovin2" target="_blank">
+              <img src="assets/icons/youtube.png" alt="YouTube" />
+            </a>
+            <a href="https://www.instagram.com/dubivan1/" target="_blank">
+              <img src="assets/icons/instagram.png" alt="Instagram" />
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        © 2026 Ivan Dubrovin |
+        <a href="impressum.html">Imprint</a> |
+        <a href="datenschutz.html">Privacy</a>
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
