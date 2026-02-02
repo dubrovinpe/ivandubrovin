@@ -885,3 +885,98 @@ footer a:hover {
 .about-image:hover .poster-overlay {
   opacity: 1; /* Macht den Text sichtbar */
 }
+
+/* === AWARDS PAGE UPDATES === */
+
+/* Winner Badge Styling (Elegant & Klein) */
+.award-badge {
+    display: inline-block;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 2px 6px;
+    border-radius: 3px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.winner-badge {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Spezielle Formatierung für verschachtelte Listen auf Awards-Seite */
+.awards-list ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.awards-list li {
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: #dcdcdc;
+    line-height: 1.6;
+}
+
+/* Sub-Bullet points (für Details wie "Official Selection") */
+.awards-list li li {
+    font-size: 15px;
+    color: #b0b0b0;
+    margin-top: 5px;
+    padding-left: 15px;
+    border-left: 2px solid rgba(255,255,255,0.1);
+    margin-left: 5px;
+}
+
+/* Styling für Links in der Awards Liste */
+.awards-list a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    padding-bottom: 1px;
+    transition: border-color 0.3s ease;
+}
+
+.awards-list a:hover {
+    border-color: #fff;
+}
+
+/* === FILM AWARDS STYLING (High Visibility) === */
+
+/* Klasse für Awards direkt unter dem Titel */
+.film-intro-awards {
+    margin-top: 30px; /* Wenig Abstand zum Titel */
+    margin-bottom: 50px; /* Abstand zur Synopsis */
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding-top: 30px;
+}
+
+/* Überschrift der Awards etwas kleiner als normale Credits */
+.film-intro-awards h2 {
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: rgba(255,255,255,0.8);
+}
+
+/* Badges Styling (Effektiv & Sichtbar) */
+.award-badge {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.winner-badge {
+    background-color: #fff; /* Weiß für maximalen Kontrast */
+    color: #000;
+}
+
+.selection-badge {
+    background-color: rgba(255,255,255,0.2);
+    color: #fff;
+    border: 1px solid rgba(255,255,255,0.3);
+}

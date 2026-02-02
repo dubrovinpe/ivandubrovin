@@ -3,4 +3,4 @@
 Minimal portfolio website.
 
 HTML / CSS / JS  
-Domain: ivandubrovin.de
+Domain: ivandubrovin.com
