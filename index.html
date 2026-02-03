@@ -4,10 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ivan Dubrovin — Film Director</title>
-    <meta
-      name="description"
-      content="Ivan Dubrovin is a film director based in Munich."
-    />
+    <meta name="description" content="Ivan Dubrovin is a film director based in Munich." />
     <link rel="stylesheet" href="style.css" />
   </head>
 
@@ -24,8 +21,13 @@
     </header>
 
     <main>
+      <!-- WORK SECTION -->
       <section id="work">
-        <!-- Clean 3-Column Grid -->
+        <div class="section-header">
+          <span class="section-title">Portfolio</span>
+          <h1 class="main-headline">Selected Works</h1>
+        </div>
+        
         <div class="films-grid">
           <!-- 1. Thermiq -->
           <a href="films/thermiq.html" class="film-card">
@@ -72,10 +74,7 @@
           <!-- 4. Luftschiff -->
           <a href="films/luftschiff.html" class="film-card">
             <div class="film-poster-container">
-              <img
-                src="assets/poster/luftschiffp2.jpg"
-                alt="Luftschiff Poster"
-              />
+              <img src="assets/poster/luftschiffp2.jpg" alt="Luftschiff Poster" />
               <div class="poster-overlay">
                 <span class="view-project-text">View Project</span>
               </div>
@@ -125,11 +124,7 @@
         <div class="about-container">
           <div class="about-image">
             <a href="awards.html">
-              <img
-                src="assets/portraits/ivan.jpg"
-                alt="Portrait of Ivan Dubrovin"
-              />
-              <!-- DIESER TEIL IST NEU (Overlay & Text) -->
+              <img src="assets/portraits/ivan.jpg" alt="Portrait of Ivan Dubrovin" />
               <div class="poster-overlay">
                 <span class="view-project-text">View Awards</span>
               </div>
@@ -168,33 +163,16 @@
             <h1>Contact</h1>
             <p>
               Email:
-              <a
-                href="#"
-                onclick="
-                  openMail();
-                  return false;
-                "
-                >ivan.dub [at] gmx.de</a
-              >
+              <span class="email-text">ivan.dub [at] gmx.de</span>
             </p>
             <p>
               Phone:
-              <a
-                href="#"
-                onclick="
-                  openPhone();
-                  return false;
-                "
-                >+49 159 031 46 464</a
-              >
+              <a href="#" onclick="openPhone(); return false;">+49 159 031 46 464</a>
             </p>
           </div>
 
           <div class="social-icons">
-            <a
-              href="https://de.wikipedia.org/wiki/Ivan_Dubrovin"
-              target="_blank"
-            >
+            <a href="https://de.wikipedia.org/wiki/Ivan_Dubrovin" target="_blank">
               <img src="assets/icons/wikipedia.png" alt="Wikipedia" />
             </a>
             <a href="https://www.youtube.com/ivandubrovin2" target="_blank">
